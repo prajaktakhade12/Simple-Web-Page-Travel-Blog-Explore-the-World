@@ -1,0 +1,87 @@
+/* General Reset and Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Body Styling */
+body {
+    background: radial-gradient(circle, #add8e6, #5b9cd1);
+  padding: 20px;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  background-color: #2a6075;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #f8f8ff;
+  font-size: 1.2rem;
+}
+
+/* Content Section Styling */
+.content {
+  margin: 20px auto;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.content h2 {
+  color: #4682b4;
+}
+
+.content img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.content a {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #4169e1;
+  font-weight: bold;
+}
+
+.content a:hover {
+  color: #ff6347;
+}
+
+/* Button Styling */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+button {
+  background-color: #20b242;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3cb371;
+}
